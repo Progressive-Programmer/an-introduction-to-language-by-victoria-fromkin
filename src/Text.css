@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+
+.text {
+    flex: 0.83;
+    margin-left: 250px;
+    display: flex;
+    min-height: 95vh;
+}
+
+.text__areaWrapper {
+    flex: 0.8;
+
+}
+
+.text__area {
+    max-width: 960px ;
+    margin: 0 auto;
+    padding: 40px 25px;
+
+
+}
+
+.text__area > h3, h1 {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.text__headingWrapper {
+    padding: 40px 20px;
+    flex: 0.2;
+    width: 100%;
+
+
+}
+
+.text__headings {
+    position: fixed;
+    overflow-y: auto;
+    color: #6c757d;
+    top: 120px;
+    bottom: 0;
+
+   
+}
+
+.text__headings > h3 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+
+    
+}
+
+
+.text__headings > h4 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+    
+}
+
+
+@media only screen and (max-width:1230px) {
+    .text {
+
+        margin: 20px;
+    }
+
+    .text__areaWrapper {
+        flex: 1;
+    
+    }
+
+    .text__headingWrapper, .text__headings {
+        display: none;
+    }
+}

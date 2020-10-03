@@ -1,0 +1,9 @@
+.footer {
+   
+    background-color: teal;
+    bottom: 0;
+    position: relative;
+    z-index: 50;
+    display: flex;
+    width: 100%;
+}
